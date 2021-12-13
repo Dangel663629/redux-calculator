@@ -1,0 +1,32 @@
+.buttonwrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.outerwrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.innerwrap {
+  background: #998761;
+  border: 1px solid rgba(110, 52, 5, 0.65);
+  height: 6px;
+  width: 6px;
+  border-radius: 1rem;
+}
+
+.innerwrapactive {
+  background: #ffffff;
+  border: 1px solid rgba(110, 52, 5, 0.65);
+  height: 6px;
+  width: 6px;
+  border-radius: 1rem;
+}
+
+.text {
+  margin-top: 0.35rem;
+}
